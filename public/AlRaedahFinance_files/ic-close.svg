@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="18.828" height="18.828" viewBox="0 0 18.828 18.828">
+    <defs>
+        <style>
+            .prefix__cls-1{fill:none;stroke:#acaeb0;stroke-linecap:round;stroke-width:2px}
+        </style>
+    </defs>
+    <g id="prefix__close" transform="translate(-1461.086 -201.086)">
+        <path id="prefix__Line_6" d="M0 16L16 0" class="prefix__cls-1" data-name="Line 6" transform="translate(1462.5 202.5)"/>
+        <path id="prefix__Line_7" d="M0 16L16 0" class="prefix__cls-1" data-name="Line 7" transform="rotate(90 638 840.5)"/>
+    </g>
+</svg>

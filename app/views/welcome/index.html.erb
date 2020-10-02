@@ -1,0 +1,41 @@
+<div class= 'container' dir="ltr">
+<div class="container_content">
+
+<div class="container_content_inner">
+
+<div class="title">
+ 
+
+<h1>Welcome !</h1>
+
+
+  
+<h1><%=@user.name.capitalize()%></h1>
+
+
+</div>
+<div class="par">
+
+<p><%=@user.email%></p>
+<p>Strive to develop and advance our products and services, to ensure AlRaedah stays at the cutting-edge of financial services</p>
+</div><br/>
+<div class="btns">
+<button class='btns_more'> <%= link_to "Home",root_path()%> </button>
+ <button class='btns_more'><%= link_to "my profile", edit_user_registration_path ,class:"login ng-star-inserted" %> </button>
+ <%if  current_user.admin==true%>
+   <button class='btns_more'><%= link_to "admin panel", rails_admin_path() ,class:"login ng-star-inserted" %> </button>
+ <%end%>
+</div><br/>
+</div>
+</div>
+ <div class="container_outer_img">
+ <div class="img-inner">
+ <img src='./AlRaedahFinance_files/alraedah-logo.svg'  alt="" class="container_img"/>
+       </div>
+     </div>
+  </div>
+<div class="overlay"></div>
+
+
+
+

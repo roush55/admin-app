@@ -1,0 +1,61 @@
+// Place all the styles related to the Home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+
+$blue:#213262;
+$light:#ecf0fa;
+.main {
+    
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    font-size: 12pt;
+    font-family: "Spartan";
+    color: $blue;
+  
+  }
+  
+  .contact-us {
+    direction: ltr;
+    margin-top: 50px;
+    background:white;
+    padding: 50px 100px;
+    border:2px  solid lightgray;
+  }
+  
+   input {
+    display:inline-block;
+    font-size: 12pt;
+    line-height: 24pt;
+    font-family: "Spartan";
+  }
+  
+  input {
+    margin-bottom: 24pt;
+  }
+  
+  
+  
+  span {
+    font-size: 8pt;
+  }
+  
+  
+  
+  input{
+    border: none;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 2px;
+    background:$light;
+    padding-left: 5px;
+    outline: none;
+  }
+  
+  input:focus, textarea:focus {
+    border: 1px solid $light;
+  }
+  
+
